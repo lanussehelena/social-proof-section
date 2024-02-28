@@ -15,6 +15,9 @@ Users should be able to:
 
 ![Screenshot](image.png)
 
+![image](https://github.com/lanussehelena/social-proof-section/assets/148594534/14d83119-e658-4dc5-b20b-2ce36e8a929a)
+
+
 
 ### Built with
 
