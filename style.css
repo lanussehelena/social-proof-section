@@ -1,0 +1,108 @@
+main {
+    max-width: 1440px;
+    margin: 50px 200px;
+    font-family: "League Spartan";
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.texto-inicial h1 {
+    font-size: 3rem;
+    color: hsl(300, 43%, 22%);
+    margin-right: 100px;
+}
+
+.texto-inicial p {
+    font-size: 1rem;
+    color: hsl(303, 10%, 53%);
+    font: 400;
+    margin-right: 70px;
+}
+
+.avaliacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-self: end;
+}
+
+.avaliacao {
+    max-width: max-content;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 40px;
+    border-radius: 5px;
+}
+
+.avaliacao p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.avaliacao1 {
+    transform: translateX(-80px);
+}
+
+.avaliacao2 {
+    transform: translateX(-40px);
+}
+
+.depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.depoimento {
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.depoimento-cliente {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.depoimento-cliente img {
+    border-radius: 50px;
+    height: 40px;
+}
+
+.depoimento-cliente h2, p {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.depoimento-cliente h3 {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.cliente2 {
+    transform: translateY(20px);
+}
+
+.cliente3 {
+    transform: translateY(40px);
+}
